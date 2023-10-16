@@ -1,26 +1,27 @@
-# (서비스 명)
-- 서비스 명을 위 괄호 부분에 작성하세요.
-- 서비스의 한 줄 소개를 작성하세요.
+# 다함께 CAR CAR CAR
 
 
 ## 서비스 구성 안내
 
 ## 1. 서비스 소개
 
-- 기술 스택 (Bulma css, node, mongodb 등)
-- 웹서비스에 대한 자세한 개요 등
-
+- 미니어쳐 수집욕이 있는 키덜트를 페르소나로 삼은 자동차 피규어 판매 서비스
 
 ## 2. 서비스 주요 기능 설명
 
 **웹서비스의 유용성, 편의성 및 시각화의 실용성에 대한 설명**
-  - 주요 기능 (주된 활용성) 및 서브 기능 소개
-  - 프로젝트만의 차별점, 기대 효과
+  ### 일반 유저
+  - 상품을 조회하고 장바구니 추가 및 구매
 
-## 3. 서비스 구성도
-  - 서비스 구조도 그림 (사용한 기술 스택)
-  - 와이어프레임 링크 (예상 웹 화면 UI) e.g) figma 사용
-  - API 명세를 문서화한 링크
+  ### 관리자 
+  - 상품의 정보를 관리하고 카테고리 변경 및 유저의 주문 관리 
+
+## 3. 기술 스택
+  ### 백엔드 
+  - express, mongoDB, POSTMAN, AWS S3, mongoose
+
+  ### 프론트
+  - figma, JS, HTML, CSS
 
 ## 4. 프로젝트 팀원 역할 분담
 | 이름 | 담당 업무 |
@@ -70,32 +71,14 @@
 - 개발 단계: 프론드엔드 개발, 상품 관련 페이지 구현
 - 수정 단계: 담당 코치님 코드 리뷰 통한 코드 개선
 
-## ✅ 구현기능
+## ✅ 담당 구현기능
 
 |  | 페이지 및 기능구현 | 설명 |
 | --- | --- | --- |
-| Main Page & Carousel | ![메인](/uploads/d8b641ae71b943a34b031a85ec65d760/메인.gif) | ・ 메인페이지 레이아웃/ 캐러셀 구현 |
-| Sign Up | ![회원가입](/uploads/dad3f26a107d00adb73b133acdc7cd8f/회원가입.gif) | ・ 유효성검사에 따른 회원가입 구현 |
-| Sign In | ![로그인](/uploads/a57c9ed8027bd8a34262fbeb6dfccd96/로그인.gif) | ・ JWT를 활용한 로그인구현 |
-| User info | ![회원정보조회](/uploads/b4c235dec92f9fe779fcc7dcb1a61b2e/회원정보조회.gif) | ・ JWT를 활용한 회원정보조회 구현 |
-| User info Edit | ![회원정보수정](/uploads/de2d3a463c228b1725ad921eb9f21bf2/회원정보수정.gif) | ・ 회원정보수정 및 저장 구현 |
-| Category | ![카테고리조회](/uploads/13e0f27de5c0cf05895f0ba05b3135d4/카테고리조회.gif) | ・ Category 이동 구현 |
-| Product Detail | ![제품상세](/uploads/4947fed060705deb5b1e0989b0451a9b/제품상세.gif) | ・ 제품 상세페이지 구현|
-| Cart |![장바구니](/uploads/87c1a32b0bf764265f3ba1673a5023ef/장바구니.gif) | ・ 로컬스토리지 활용 기능 구현 |
-| Admin-User | ![유저관리](/uploads/0dacdab8c7e7beb6237b6e969a9ff999/유저관리.gif) | ・ 관리자 권한 유저 정보 조회/삭제 구현 |
+| 장바구니 |![cart](https://github.com/coffeeJMG/elice_Project_FigureShop/assets/114897197/822c7b9e-4243-43c0-a869-5ceef5b76c4c) | ・ 로컬스토리지 활용 기능 구현 |
+| 관리자 | ![admin](https://github.com/coffeeJMG/elice_Project_FigureShop/assets/114897197/0719f189-995b-4f10-8da5-bfd4d48f7b50) | ・ 관리자 권한 유저 정보 조회/삭제 구현 |
+| 주문 관리 | <img width="631" alt="스크린샷 2023-10-16 오전 11 52 09" src="https://github.com/coffeeJMG/KoreanTime/assets/114897197/20c6db79-219c-4305-8503-35664cc2d85d"> | ・ 관리자는 유저의 주문 상태를 관리 |
+| 주문 상세 | <img width="500" alt="스크린샷 2023-10-16 오전 11 56 49" src="https://github.com/coffeeJMG/KoreanTime/assets/114897197/8c0502a7-a01e-4da5-8047-f8c50c5ef663"> | ・전체 주문 조회  |
+| 주문 조회 | <img width="500" alt="스크린샷 2023-10-16 오전 11 57 17" src="https://github.com/coffeeJMG/KoreanTime/assets/114897197/ba80182c-e292-44a2-b1fa-b31d318e1503"> | ・ 주문 별 상세조회  |
 
 
-## 5. 실행 방법
-- 백엔드 (예시):
-  ```bash
-  1. mongodb 실행
-  2. yarn start (혹은 npm start)
-  ```
-
-## 6. 버전
-  - 프로젝트의 버전 기입 (예: 1.0.0)
-
-## 7. FAQ
-  - 자주 받는 질문 정리
-  - 예시) 이 서비스는 어떻게 실행하면 되나요?
-    - git clone을 하신 후 아래 커맨드를 입력하시면 됩니다. ~~~
